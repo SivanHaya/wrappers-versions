@@ -1,0 +1,17 @@
+{
+  "name": "playstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "app-store-scraper": "^0.15.2",
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "google-play-scraper": "^6.2.3"
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "label": "Gala Bingo",
+    "googleID": "com.gala.android.bingo",
+    "appleVersion": 579575934
+  },
+  {
+    "label": "Gala Casino",
+    "googleID": "com.gala.android.casino",
+    "appleVersion": 706012393
+  },
+  {
+    "label": "Gala Spins",
+    "googleID": "com.gala.android.spins",
+    "appleVersion": 1171116320
+  },
+  {
+    "label": "Coral Vegas",
+    "googleID": "com.gala.android.vegas",
+    "appleVersion": 1053810597
+  },
+  {
+    "label": "Coral Live Casino",
+    "googleID": "uk.co.coral.livedealer",
+    "appleVersion": 876497885
+  },
+  {
+    "label": "Coral Sports Betting",
+    "googleID": "com.galacoral.android",
+    "appleVersion": 553287152
+  },
+  {
+    "label": "Ladbrokes Casino & Games",
+    "googleID": "com.ladbrokes.android.mcasino",
+    "appleVersion": 897894318
+  },
+  {
+    "label": "Ladbrokes Live Casino",
+    "googleID": "com.ladbrokes.livecasino",
+    "appleVersion": 859225114
+  },
+  {
+    "label": "Ladbrokes Sports Betting",
+    "googleID": "com.mobenga.ladbrokes",
+    "appleVersion": 395505438
+  }
+]
