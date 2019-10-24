@@ -1,0 +1,35 @@
+#brandsversions {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-collapse: collapse;
+  margin-left:40px
+}
+
+#brandsversions td, #brandsversions th {
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+#brandsversions tr:nth-child(even){background-color: #f2f2f2;}
+
+#brandsversions tr:hover {background-color: #ddd;}
+
+#brandsversions th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #277AF2;
+  color: white;
+}
+
+h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #277AF2;
+  padding-top: 12px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-left: 50px;
+}

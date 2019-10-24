@@ -1,0 +1,43 @@
+<html>
+<head>
+<link rel='stylesheet' type='text/css' href='/index.css' />
+<title>Brands Versions</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+
+<script>
+    $(function() {
+   var brandsVersions = [];
+
+   $.getJSON('brandsVersions.json', function(data) {
+       $.each(data.brands, function(i, f) {
+          var tblRow = "<tr>" + "<td>" + f.brand + "</td>" +
+           "<td>" + f.googleVersion + "</td>" + "<td>" + f.appleVersion + "</td>" + "</tr>"
+           $(tblRow).appendTo("#brandsversions tbody");
+     });
+   });
+});
+</script>
+</head>
+<body>
+  <h1>Brands Versions</h1>
+
+  <p>The following table display the current versions in Google Store & Apple Store for wrappers and native application.</p>
+  <div class="wrapper">
+  <div class="profile">
+  <table id= "brandsversions" border="2">
+
+  <thead>
+      <th>Brand Name</th>
+      <th>Google Version</th>
+      <th>Apple Version</th>
+  </thead>
+    <tbody id="tbody">
+    </tbody>
+  </table>
+  </div>
+  </div>
+  </div>
+
+</body>
+</html>

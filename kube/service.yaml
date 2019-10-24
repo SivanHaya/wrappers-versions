@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: wrappers-versions
+  name: wrappers-versions-service
+  namespace: default
+spec:
+  ports:
+    - protocol: "TCP"
+      port: 80
+      targetPort: 3000
+  selector:
+    app: wrappers-versions
+  type: NodePort

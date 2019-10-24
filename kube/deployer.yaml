@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: wrappers-versions
+  namespace: default
+spec:
+  replicas: 1
+  revisionHistoryLimit: 0
+  template:
+    metadata:
+      labels:
+        app: wrappers-versions
+    spec:
+      containers:
+        - name: wrappers-versions
+          image: eu.gcr.io/deft-crawler-126417/wrappers-versions:latest
+          command: ["/bin/sh"]
+          args: ["-c", "npm start"]
+          imagePullPolicy: Always
+          ports:
+          -  containerPort: 3000

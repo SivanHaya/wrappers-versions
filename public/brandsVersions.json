@@ -1,0 +1,47 @@
+{"brands":[
+  {
+    "brand": "Gala Bingo",
+    "googleVersion": "7.6",
+    "appleVersion": "4.0"
+  },
+  {
+    "brand": "Gala Casino",
+    "googleVersion": "2.3",
+    "appleVersion": "4.2"
+  },
+  {
+    "brand": "Gala Spins",
+    "googleVersion": "3.3",
+    "appleVersion": "2.2"
+  },
+  {
+    "brand": "Coral Vegas",
+    "googleVersion": "7.2",
+    "appleVersion": "3.22"
+  },
+  {
+    "brand": "Coral Live Casino",
+    "googleVersion": "18.1.0.9",
+    "appleVersion": "18.42"
+  },
+  {
+    "brand": "Coral Sports Betting",
+    "googleVersion": "Varies with device",
+    "appleVersion": "4.3"
+  },
+  {
+    "brand": "Ladbrokes Casino & Games",
+    "googleVersion": "4.0",
+    "appleVersion": "5.20"
+  },
+  {
+    "brand": "Ladbrokes Live Casino",
+    "googleVersion": "17.5",
+    "appleVersion": "18.42"
+  },
+  {
+    "brand": "Ladbrokes Sports Betting",
+    "googleVersion": "5.8",
+    "appleVersion": "6.7"
+  }
+]}
